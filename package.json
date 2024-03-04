@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@angular/cdk": "^17.2.1",
+    "@angular/material": "^17.2.1",
+    "@ng-bootstrap/ng-bootstrap": "^16.0.0",
+    "bootstrap": "^5.3.3"
+  }
+}
