@@ -15,4 +15,6 @@ public interface UserService {
     User getUserById(Long userId);
 
     void likeUser(Long userId);
+
+   List<User> searchByName(String name);
 }

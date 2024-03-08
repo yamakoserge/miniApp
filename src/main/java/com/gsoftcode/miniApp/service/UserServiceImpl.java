@@ -50,4 +50,8 @@ public class UserServiceImpl implements UserService{
             throw new EntityNotFoundException("User not found with id" + userId);
         }
     }
+
+    public List<User> searchByName(String name){
+        return userRepository.findAllByNameContaining(name);
+    }
 }
