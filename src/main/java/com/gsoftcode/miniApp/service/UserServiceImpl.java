@@ -52,6 +52,7 @@ public class UserServiceImpl implements UserService{
     }
 
     public List<User> searchByName(String name){
+
         return userRepository.findAllByNameContaining(name);
     }
 }
